@@ -146,3 +146,28 @@ span .cidade{
   padding-left: 35px;
   padding-bottom: 15px;
 }
+
+.buttons{
+  display: flex;
+}
+
+.curriculo{ 
+  display: flex;
+  border: solid 1px #6C6A9E;
+  margin-right: 10px;
+  padding: 10px 18px 10px 18px; 
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.email{ 
+  display: flex;
+  border: solid 1px #00B7D3;
+  margin-left: 10px;
+  padding: 8px 18px 8px 18px; 
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+}
+
