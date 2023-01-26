@@ -8,3 +8,20 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+  background-color: #0C0129;
+  color: #fff;
+  display: flex;
+  justify-content: space-between; 
+  height: 70px;
+}
+
+.logo{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding-left: 120px; 
+  color: #00B7D3;
+  font-weight: bold;
+  font-size: 25px;
+}
