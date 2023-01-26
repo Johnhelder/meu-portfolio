@@ -25,3 +25,33 @@ header{
   font-weight: bold;
   font-size: 25px;
 }
+
+.imagem img{
+  max-width: 460px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+ }
+
+ .menu ul{
+  display: flex; 
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+.menu ul li{   
+  padding: 3px;   
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;  
+  display: flex;  
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.menu ul li:nth-child(4){
+  color: #ff0000;
+  margin-right: 200px;
+}
