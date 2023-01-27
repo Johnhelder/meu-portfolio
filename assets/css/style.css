@@ -171,3 +171,36 @@ span .cidade{
   border-radius: 8px;
 }
 
+/*Experiência*/
+
+.experiencia{
+  background-color: #111;
+  height: 450px;
+  color: #fff;
+  padding-left: 120px;
+}
+
+.titulo{
+  padding-top: 70px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.geral-texto{
+  display: flex;
+}
+
+.texto{
+  width: 650px;
+  padding-left: 149px;
+  line-height: 25px;
+}
+
+.geral-dev{
+  padding-bottom: 20px;
+  padding-left: 250px;
+}
+
+.geral-titulo{
+  text-transform: uppercase;
+}
