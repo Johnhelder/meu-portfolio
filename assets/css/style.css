@@ -204,3 +204,24 @@ span .cidade{
 .geral-titulo{
   text-transform: uppercase;
 }
+
+/*Seção projetos*/
+
+.projetos-container{
+  display: flex;
+}
+
+.projetos{
+  background-color:  rgb(20, 20, 20);
+}
+
+.titulo-projetos{
+  color: #fff;
+  padding-top: 70px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.projetos-imagem{
+  max-width: 400px;
+}
