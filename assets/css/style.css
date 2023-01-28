@@ -90,7 +90,7 @@ h1{
   display: flex;  
 }
 
-.botao1{
+.linkedin{
   display: flex;
   border: solid 1px #00B7D3;
   margin-right: 10px;
@@ -100,7 +100,7 @@ h1{
   border-radius: 8px;
 }
 
-.botao2{
+.github{
   display: flex;
   border: solid 1px #6C6A9E;
   margin-left: 10px;
@@ -155,7 +155,7 @@ span .cidade{
   display: flex;
   border: solid 1px #6C6A9E;
   margin-right: 10px;
-  padding: 10px 18px 10px 18px; 
+  padding: 8px 20px; 
   text-decoration: none;
   color: #fff;
   border-radius: 8px;
@@ -165,7 +165,7 @@ span .cidade{
   display: flex;
   border: solid 1px #00B7D3;
   margin-left: 10px;
-  padding: 8px 18px 8px 18px; 
+  padding: 8px 20px; 
   text-decoration: none;
   color: #fff;
   border-radius: 8px;
@@ -193,7 +193,7 @@ span .cidade{
 .texto{
   width: 650px;
   padding-left: 149px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .geral-dev{
@@ -231,4 +231,34 @@ span .cidade{
 .titulo-imagem{
   color: #fff;
   margin-top: 15px;
+  font-size: 25px;
+  padding-bottom: 25px;
 }
+
+.paragrafo-imagem{
+  color: #fff;
+  width: 500px;
+  line-height: 30px;
+}
+
+.tecnologias-usadas{
+  color: #00B7D3;
+  margin-top: 25px;
+}
+
+.visualizar{
+  border: 1px solid #00B7D3;
+  display: inline-block;
+  margin-top: 18px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  padding: 10px 20px;
+}
+
+.visualizar a{
+  text-decoration: none;  
+  color: #fff;
+  cursor: pointer;  
+  padding: 10px 20px;
+}
+
