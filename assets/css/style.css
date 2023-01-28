@@ -262,3 +262,18 @@ span .cidade{
   padding: 10px 20px;
 }
 
+/*Footer*/
+
+.footer{
+  display: flex;
+  background-color: #111;
+  color: #fff;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.autor{
+  color: #00B7D3;
+  padding-left: 10px;
+}
