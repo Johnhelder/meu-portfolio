@@ -208,11 +208,13 @@ span .cidade{
 /*Seção projetos*/
 
 .projetos-container{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .projetos{
   background-color:  rgb(20, 20, 20);
+  padding-left: 120px;
 }
 
 .titulo-projetos{
@@ -224,4 +226,9 @@ span .cidade{
 
 .projetos-imagem{
   max-width: 400px;
+}
+
+.titulo-imagem{
+  color: #fff;
+  margin-top: 15px;
 }
