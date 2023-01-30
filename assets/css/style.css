@@ -61,9 +61,9 @@ header{
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #111;
-  color: #fff;
-  height: 500px;
-  padding-top: 150px;
+  color: #fff; 
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-left: 120px;
 }
 
@@ -116,7 +116,7 @@ h1{
 .sobre{  
   display: flex;
   background-color: rgb(20, 20, 20);
-  padding-top: 100px;
+  padding-top: 100px; 
 }
 
 .sobreimg{
@@ -131,7 +131,7 @@ h1{
   height: 200px;
   background-color: #00B7D3;
   left: 117px;  
-}
+} 
  
 span .cidade{
   padding-bottom: 15px; 
@@ -193,7 +193,7 @@ span .cidade{
 }
 
 .titulo{
-  padding-top: 70px;
+  padding-top: 100px;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
@@ -231,7 +231,7 @@ span .cidade{
 
 .titulo-projetos{
   color: #fff;
-  padding-top: 70px;
+  padding-top: 100px;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
@@ -272,7 +272,7 @@ span .cidade{
   margin-top: 18px;
   border-radius: 5px;
   margin-bottom: 60px;
-  padding: 10px 20px;
+  padding: 10px 20px;  
 }
 
 .visualizar a{
@@ -289,8 +289,8 @@ span .cidade{
   background-color: #111;
   color: #fff;
   height: 70px;
-  align-items: center;
-  justify-content: center;
+  align-items: center; 
+  padding-left: 120px;
   border-top: 1px solid #2b2b2b;
 }
 
