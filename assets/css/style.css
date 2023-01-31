@@ -330,3 +330,25 @@ span .cidade{
     font-size: 16px;
   }
 }
+
+/*sobre*/
+@media (max-width: 850px){
+  /*.sobre{
+    display: grid;
+    grid-template-columns: 1fr;
+  }*/
+  h2{  
+    font-size: 15px;
+  }
+  .cidade{
+    font-size: 15px;
+    margin-top: 15px; 
+    padding-bottom: 25px;
+  }
+
+  .sobretexto p{
+    font-size: 13px;  
+    margin-bottom: 10px;
+  } 
+
+}
