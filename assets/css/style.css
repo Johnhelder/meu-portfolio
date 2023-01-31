@@ -38,7 +38,7 @@ header{
  .menu ul{
   display: flex; 
   align-items: center;  
-  padding-top: 20px;
+  padding-top: 23px;
 }
 
 
@@ -282,6 +282,12 @@ span .cidade{
   padding: 10px 20px;
 }
 
+.visualizar a:hover{ 
+  border-color: #ff0000;
+  color: #6C6A9E; 
+  cursor: pointer;
+}
+
 /*Footer*/
 
 .footer{
@@ -297,4 +303,30 @@ span .cidade{
 .autor{
   color: #00B7D3;
   padding-left: 10px;
+}
+
+/*Responsivo*/
+
+@media (max-width: 850px){
+  .home{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .imagem img{
+    box-sizing: border-box;
+    display: block;
+    display:  flex; 
+    max-width: 550px;  
+    padding-right: 200px;
+    margin-top: 30px;
+  }
+  .info{
+    font-size: 15px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .prof{
+    font-size: 16px;
+  }
 }
