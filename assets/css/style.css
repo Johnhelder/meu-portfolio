@@ -383,3 +383,32 @@ h1{
   padding-left: 130px;
   margin-bottom: 70px;
 }
+
+@media(max-width: 768px){
+  .teste{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+  .paragrafo{
+    padding-left: 50px;
+    font-size: 22px;
+  }
+  h1{
+    font-size: 22px;
+    padding-left: 50px;
+  }
+  .prof{
+    font-size: 22px;
+    padding-left: 50px;
+  }
+  .botoes{
+    padding-left: 50px;
+  }
+  .imagem img{
+    box-sizing: border-box;
+    padding: auto;
+    padding-left: 50px;
+    max-width: 280px; 
+  }
+}
