@@ -53,7 +53,7 @@ header{
 }
 .container{
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   color: #fff; 
   padding-top: 100px;
   padding-bottom: 100px;
@@ -61,7 +61,7 @@ header{
 } 
 
 .imagem img{
-  max-width: 400px;    
+  max-width: 350px;    
   padding-left: 80px;
  }
 
@@ -344,4 +344,42 @@ span .cidade{
     margin-bottom: 10px;
   } 
 
+}
+
+/*para remover código abaixo*/
+
+.hoome{
+  background-color: #111;  
+}
+
+.teste{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.paragrafo{
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  align-items: center; 
+  padding-left: 120px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+} 
+h1{
+  color: #fff;
+  padding-left: 120px;
+}
+.prof{
+  padding-left: 120px;
+}
+.botoes{
+  padding-left: 120px;
+  margin-bottom: 70px;
+}
+.imagem img{
+  max-width: 500px;
+  margin-top: 65px; 
+  padding-left: 130px;
+  margin-bottom: 70px;
 }
