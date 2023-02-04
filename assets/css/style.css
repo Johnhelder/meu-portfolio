@@ -188,8 +188,9 @@ span .cidade{
 /*Experiência*/
 
 .experiencia{
+  display: flex;
   background-color: #111;
-  height: 450px;
+   
   color: #fff;
   padding-left: 120px;
 }
@@ -198,25 +199,26 @@ span .cidade{
   padding-top: 100px;
   text-transform: uppercase;
   padding-bottom: 20px;
-}
-
-.geral-texto{
-  display: flex;
-}
+} 
 
 .texto{
   width: 650px;
-  padding-left: 149px;
+  padding-left: 110px;
   line-height: 30px;
+  margin-bottom: 100px;
 }
 
 .geral-dev{
+  margin-top: 100px;
+  
+  flex-direction: column;
   padding-bottom: 20px;
-  padding-left: 250px;
+  padding-left: 110px;
 }
 
 .geral-titulo{
   text-transform: uppercase;
+  margin-top: 85px;
 }
 
 /*Seção projetos*/
@@ -330,10 +332,7 @@ span .cidade{
 
 /*sobre*/
 @media (max-width: 768px){
-  /*.sobre{
-    display: grid;
-    grid-template-columns: 1fr;
-  }*/
+   
   h2{  
     font-size: 15px;
     padding-left: 60px;
@@ -367,6 +366,10 @@ span .cidade{
   }
   .geral-titulo{
     font-size: 12px;
+  }
+  .texto{
+    font-size: 14px;
+    width: 460px;
   }
 }
 
