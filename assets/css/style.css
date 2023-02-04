@@ -27,6 +27,10 @@ header{
   font-size: 25px;
 }
 
+.logo a{
+  text-decoration: none;
+}
+
  .menu ul{
   display: flex; 
   align-items: center;  
@@ -332,11 +336,13 @@ span .cidade{
   }*/
   h2{  
     font-size: 15px;
+    padding-left: 60px;
   }
   .cidade{
     font-size: 15px;
     margin-top: 15px; 
     padding-bottom: 25px;
+    padding-left: 60px;
   }
 
   .sobretexto p{
@@ -344,7 +350,11 @@ span .cidade{
     margin-bottom: 10px;
     width: 380px;
     line-height: 23px;
+    padding-left: 60px;
   } 
+  .buttons{
+    padding-left: 60px;
+  }
 
 }
 
