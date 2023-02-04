@@ -107,7 +107,7 @@ h1{
   text-decoration: none;
   color: #fff;
   border-radius: 8px; 
-}
+} 
 
 /*Sobre*/
 
@@ -325,7 +325,7 @@ span .cidade{
 }
 
 /*sobre*/
-@media (max-width: 850px){
+@media (max-width: 768px){
   /*.sobre{
     display: grid;
     grid-template-columns: 1fr;
@@ -340,10 +340,24 @@ span .cidade{
   }
 
   .sobretexto p{
-    font-size: 13px;  
+    font-size: 14px;  
     margin-bottom: 10px;
+    width: 380px;
+    line-height: 23px;
   } 
 
+}
+
+/*Experiencia"*/
+
+@media(max-width: 768px){
+  .experiencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .geral-titulo{
+    font-size: 12px;
+  }
 }
 
 /*para remover código abaixo*/
@@ -381,34 +395,41 @@ h1{
   max-width: 500px;
   margin-top: 65px; 
   padding-left: 130px;
-  margin-bottom: 70px;
+  margin-bottom: 70px; 
 }
 
 @media(max-width: 768px){
   .teste{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     
   }
   .paragrafo{
-    padding-left: 50px;
+    padding-left: 113px;
     font-size: 22px;
   }
   h1{
-    font-size: 22px;
-    padding-left: 50px;
+    font-size: 18px;
+    padding-left: 113px;
   }
   .prof{
-    font-size: 22px;
-    padding-left: 50px;
+    font-size: 15px;
+    padding-left: 113px;
   }
   .botoes{
-    padding-left: 50px;
+    padding-left: 113px;
   }
   .imagem img{
-    box-sizing: border-box;
-    padding: auto;
+    box-sizing: border-box; 
     padding-left: 50px;
-    max-width: 280px; 
+    max-width: 290px; 
+  }
+}
+
+/*Experiência*/
+
+@media(max-width: 768px){
+  .titulo{
+
   }
 }
