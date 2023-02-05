@@ -372,7 +372,39 @@ span .cidade{
     width: 460px;
   }
 }
-
+/*Projetos*/
+@media(max-width: 768px){
+  .projetos-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .infusion img{
+    max-width: 250px;
+  }
+  .paragrafo-imagem{
+    font-size: 14px;
+    width: 320px;
+    padding-right: 10px;
+  }
+  .tecnologias-usadas{
+    font-size: 14px;
+    width: 320px;
+  }
+  /*Desenho*/
+  .canvas img{
+    max-width: 250px;
+  }
+  .paragrafo-imagem{
+    font-size: 14px;
+    width: 320px;
+  }
+  .pizzas img{
+    max-width: 250px;
+  }
+  .urna img{
+    max-width: 250px;
+  }
+}
 /*para remover código abaixo*/
 
 .hoome{
