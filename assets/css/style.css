@@ -52,9 +52,7 @@ header{
   color: #ff0000;
   margin-right: 200px;
 }
-.home{
-  background-color: #111; 
-}
+ 
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -407,11 +405,11 @@ span .cidade{
 }
 /*para remover código abaixo*/
 
-.hoome{
+.home{
   background-color: #111;  
 }
 
-.teste{
+.principal{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -444,7 +442,7 @@ h1{
 }
 
 @media(max-width: 768px){
-  .teste{
+  .principal{
     display: grid;
     grid-template-columns: 1fr 1fr;
     
@@ -475,6 +473,31 @@ h1{
 
 @media(max-width: 768px){
   .titulo{
+    
+  }
+}
 
+/*Responsivo para celular*/
+
+@media(max-width: 375px){
+  .principal{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .imagem img{
+    padding: 0;
+    margin: 0;
+    max-width: 320px;
+    padding-left: 80px;
+    margin-bottom: 70px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .principal .paragrafo p{
+    font-size: 22px;
+  }
+  .principal p{
+    font-size: 14px;
   }
 }
