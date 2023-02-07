@@ -500,4 +500,10 @@ h1{
   .principal p{
     font-size: 14px;
   }
+  .linkedin{
+    font-size: 13px;
+  }
+  .github{
+    font-size: 13px;
+  }
 }
