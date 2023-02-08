@@ -483,7 +483,11 @@ h1{
   .principal{
     display: grid;
     grid-template-columns: 1fr;
+  }  
+  .paragrafo p{
+    font-size: 17px;
   }
+
   .imagem img{
     padding: 0;
     margin: 0;
@@ -505,5 +509,14 @@ h1{
   }
   .github{
     font-size: 13px;
+  }
+}
+
+/*Responsivo seção sobre para celular*/
+
+@media(max-width: 375px){
+  .sobre{
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
