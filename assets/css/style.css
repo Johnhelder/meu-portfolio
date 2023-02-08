@@ -491,8 +491,8 @@ h1{
   .imagem img{
     padding: 0;
     margin: 0;
-    max-width: 320px;
-    padding-left: 80px;
+    max-width: 317px;
+    padding-left: 95px;
     margin-bottom: 70px;
   }
   h1{
@@ -518,5 +518,22 @@ h1{
   .sobre{
     display: grid;
     grid-template-columns: 1fr;
+    height: 800px;
+  }
+  .sobretexto h2{
+     padding-left: 80px;
+     margin-top: 13px; 
+  }
+  .cidade{
+    padding-left: 80px;
+  }
+  .sobretexto p{
+    font-size: 14px;
+    width: 300px;
+    padding-left: 80px;
+  }
+  .buttons{
+    padding-left: 80px;
+    padding-bottom: 70px;
   }
 }
