@@ -551,3 +551,21 @@ h1{
   }
    
 }
+
+/*Responsivo seção projetos para celular*/
+@media(max-width: 375px){
+  .projetos-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .infusion img{
+    max-width: 210px;
+  }
+  .paragrafo-imagem p{
+    width: 230px;
+    font-size: 14px;
+  }
+  .tecnologias-usadas{
+    
+  }
+}
