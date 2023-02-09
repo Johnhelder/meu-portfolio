@@ -541,13 +541,18 @@ h1{
 /*Responsivo seção experiência para celular*/
 
 @media(max-width: 375px){
-  .exp .experiencia{
+  .experiencia{
     display: grid;
     grid-template-columns: 1fr;
   }
-  .geral-dev h4{
-    
-    padding-right: 290px;
+  .geral h4{ 
+    box-sizing: border-box;
+    padding-right: 60px;
+  }
+  .geral p{
+    width: 260px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
    
 }
@@ -557,9 +562,9 @@ h1{
   .projetos-container{
     display: grid;
     grid-template-columns: 1fr;
-  }
+  }   
   .infusion img{
-    max-width: 210px;
+    max-width: 210px; 
   }
   .paragrafo-imagem p{
     width: 230px;
