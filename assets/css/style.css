@@ -565,7 +565,20 @@ h1{
     width: 230px;
     font-size: 14px;
   }
+  .titulo-imagem{
+    font-size: 16px;
+  }
   .tecnologias-usadas{
-    
+    width: 230px;
+    font-size: 14px;
+  }
+  .canvas img{
+    max-width: 210px; 
+  }
+  .pizzas img{
+    max-width: 210px;
+  }
+  .urna img{
+    max-width: 210px; 
   }
 }
