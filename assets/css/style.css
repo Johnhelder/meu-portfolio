@@ -537,3 +537,17 @@ h1{
     padding-bottom: 70px;
   }
 }
+
+/*Responsivo seção experiência para celular*/
+
+@media(max-width: 375px){
+  .exp .experiencia{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .geral-dev h4{
+    
+    padding-right: 290px;
+  }
+   
+}
