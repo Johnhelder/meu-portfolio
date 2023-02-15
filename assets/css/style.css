@@ -469,14 +469,6 @@ h1{
   }
 }
 
-/*Experiência*/
-
-@media(max-width: 768px){
-  .titulo{
-    
-  }
-}
-
 /*Responsivo para celular*/
 
 @media(max-width: 375px){
@@ -545,7 +537,11 @@ h1{
     display: grid;
     grid-template-columns: 1fr;
   }
-  .geral h4{ 
+  
+  .experiencia h3{
+    left: 0;
+  }
+  .geral h4{  
     box-sizing: border-box;
     padding-right: 60px;
   }
