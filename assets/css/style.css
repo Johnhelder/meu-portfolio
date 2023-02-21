@@ -8,7 +8,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+/*header{
   background-color: rgb(20, 20, 20);
   color: #fff;
   display: flex;
@@ -51,6 +51,72 @@ header{
 .menu ul li:nth-child(4){
   color: #ff0000;
   margin-right: 200px;
+}*/
+
+body, ul{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover{
+  background-color: rgba(0, 0, 0, .05);
+}
+
+#logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 3rem;
+
+}
+
+#header{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 1rem;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding-right: 3rem;
+  background-color: #e7e7e7;
+}
+
+#menu{
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+}
+
+#menu a{
+  display: block;
+  padding: .5rem;
+}
+
+#btn-mobile{
+  display: none;
+}
+
+.sobre{
+  background-color: antiquewhite;
+  height: 300px;
+}
+
+.meuNome{
+  display: block;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 2rem; 
+  padding-left: 50px;
+}
+h1{
+  font-size: 3rem;
+  padding-left: 50px;
 }
  
 .container{
