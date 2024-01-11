@@ -5,163 +5,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Meu portfólio</title>
 </head>
 
-<body>
-  <!--<header>
-    <div class="container">
-      <div class="logo">
-        <a href="#">j-H</a>
+<body> 
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="menu-logo">
+        <a href="#">J-H</a>
       </div>
-      <div class="menu">
-        <nav>
-          <div class="menuMobile">
-            <div class="mm_line"></div>
-            <div class="mm_line"></div>
-            <div class="mm_line"></div>
-          </div>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Experiência</a></li>
-            <li><a href="#">Projetos</a></li>
-          </ul>
-
-
-        </nav>
-      </div>
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Sobre mim">Sobre mim</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#Habilidades">Habilidades</a></li>
+         
+        </ul>
+      </nav>
     </div>
-
-  </header>-->
-
-  <header id="header">
-    <a id="logo" href="/">J-H</a>
-    <nav id="nav">
-      <button id="btn-mobile">Menu
-        <span id="hamburguer"></span>
-      </button>
-      <ul id="menu">
-        <li><a href="/">Sobre</a></li>
-        <li><a href="/">Produtos</a></li>
-        <li><a href="/">Portfólio</a></li>
-        <li><a href="/">Contatos</a></li>
-
-      </ul>
-    </nav>
   </header>
-  <section class="home">
-    <div class="principal">
-      <div>
-        <p class="paragrafo">Olá, sou</p>
-        <div>
-          <h1>John Helder</h1>
-        </div>
-        <div>
-          <p class="prof">Desenvolvedor front-end</p>
-        </div>
-        <div class="botoes">
-          <a href="#" class="linkedin">LinkedIn</a>
-          <a href="#" class="github">GitHub</a>
-        </div>
-      </div>
-      <div class="imagem">
-        <img src="./assets/images/hero.png" alt="">
-      </div>
-    </div>
-  </section>
-
-  <section class="sobre">
-
-    <div class="hero">
-      <img class="sobreimg" src="./assets/images/helder.png" alt="minha imagem de perfil">
-    </div>
-    <div class="sobretexto">
-      <h2>sobre mim</h2>
-      <span class="cidade">João Pessoa, PB</span>
-      <p>Olá, conclui tecnólogo Sistemas Para Internet, estou focado em tecnologias web, estou diariamente melhorando meus conhecimentos desenvolvendo projetos para me desafiar. Atualmente trabalhando como suporte em sistemas RM e com mais de 5 anos de experiência</p>
-      <div class="buttons">
-        <a href="#" class="curriculo">Curriculo</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="exp">
-    <div class="experiencia">
-      <div>
-        <h3 class="titulo">Experiência</h3>
-        <span class="geral-titulo">O que já fiz</span>
-      </div>
-      <div class="geral">
-        <h4 class="geral-dev">Desenvolvedor Front-End</h4>
-        <p class="texto">Já desenvolvi alguns projetos acompanhando cursos para melhorar meus conhecimentos nas tecnologias HTML, CSS e JavaScript. Atualmente criando projetos por conta própria sem ver curso, quando tenho dúvidas pesquiso no google e dessa forma tenho avançado bastante.</p>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="projetos">
-    <h3 class="titulo-projetos">Projetos</h3>
-    <div class="projetos-container">
-      <div class="infusion">
-        <img class="projetos-imagem" src="./assets/images/Infusion-1.png" alt="">
-        <div class="titulo-imagem">Infusion</div>
-        <div class="paragrafo-imagem">
-          <p>Criar um menu toggle que é habilitado quando é acesso de um aparelho celular, uma galeria de imagens utilizando carousel e uma seção depoimentos também utilizando carousel essas funcionalidades foram feitas.</p>
-        </div>
-        <div class="tecnologias-usadas">
-          <p>Tecnologias utilizadas no projeto: HTML, CSS e JavaScript</p>
-        </div>
-        <div class="visualizar">
-          <a href="#">Visualizar</a>
-        </div>
-      </div>
-
-      <div class="canvas">
-        <img class="projetos-imagem" src="./assets/images/Quadro-1.png" alt="">
-        <div class="titulo-imagem">Desenho</div>
-        <div class="paragrafo-imagem">
-          <p>Nesse sistema coloquei em prática os conhecimentos de manipulação do DOM usando JavaScript. Declaração de variáveis, seleção de elementos, laço de repetição, eventos de mouse, uso de funções de click de mouse.</p>
-        </div>
-        <div class="tecnologias-usadas">
-          <p>Tecnologias utilizadas no projeto: HTML, CSS e JavaScript</p>
-        </div>
-        <div class="visualizar">
-          <a href="#">Visualizar</a>
-        </div>
-      </div>
-
-      <div class="pizzas">
-        <img class="projetos-imagem" src="./assets/images/Pizzas.png" alt="">
-        <div class="titulo-imagem">Controle de Pizzas</div>
-        <div class="paragrafo-imagem">
-          <p>Nesse sistema foi possível por em prática o uso dos conhecimentos que venho adquirindo em termos de HTML, CSS e JavaScript. Fiz muito o uso de funções, requisições, uso do map, laço de repetição FOR de JavaScript.</p>
-        </div>
-        <div class="tecnologias-usadas">
-          <p>Tecnologias utilizadas no projeto: HTML, CSS e JavaScript</p>
-        </div>
-        <div class="visualizar">
-          <a href="#">Visualizar</a>
-        </div>
-      </div>
-
-      <div class="urna">
-        <img class="projetos-imagem" src="./assets/images/urna.png" alt="">
-        <div class="titulo-imagem">Urna Eletrônica</div>
-        <div class="paragrafo-imagem">
-          <p>Objetivo de criar o projeto urna eletrônica é melhorar meus conhecimentos nas tecnologias que estou focado HTML, CSS e JavaScript, esse projeto tem algumas funcionalidades como atualizar as informações na tela.</p>
-        </div>
-        <div class="tecnologias-usadas">
-          <p>Tecnologias utilizadas no projeto: HTML, CSS e JavaScript</p>
-        </div>
-        <div class="visualizar">
-          <a href="#">Visualizar</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
+   
   <footer>
     <div class="footer">
       Todos os direitos reservados <span class="autor">John Helder</span>
