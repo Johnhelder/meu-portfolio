@@ -52,7 +52,14 @@ img{
 }
 
 .menu-nav a{
-  font-size: 1.124rem;
+  font-size: 1rem;
   padding: 10px;
   color: #1CD46E;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
 }
+
+ .menu-nav a:hover{
+  text-decoration: underline;
+  padding-bottom: 3px; 
+ }
