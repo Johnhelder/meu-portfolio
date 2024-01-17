@@ -27,6 +27,7 @@ img{
 
 .menu-bg{
   background-color: #22291C;
+  border-bottom: 1px solid #677957;
 }
 
 .menu{
@@ -36,7 +37,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
 }
 
 .menu-logo a{
@@ -62,4 +63,45 @@ img{
  .menu-nav a:hover{
   text-decoration: underline;
   padding-bottom: 3px; 
+ }
+
+ /*Seção sobre*/
+
+.sobre{ 
+  margin: 0 auto;
+  display: flex; 
+  padding: 30px;
+  background-color: #333D29;
+  height: 450px;
+}
+
+.text-sobre{ 
+  padding-left: 580px;  
+  line-height: 25px; 
+  font-size: 16px;
+   
+}
+
+ .sobre-mim{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+.title-sobre{
+  font-size: 2rem;
+  padding-left: 580px;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+ .texto{
+  flex: 7;
+  color: #fff;
+  padding-top: 150px;
+ }
+ .hero{
+  max-width: 150px;
+  flex: 1;
+  padding-top: 150px;
  }
