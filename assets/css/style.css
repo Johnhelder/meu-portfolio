@@ -105,3 +105,19 @@ img{
   flex: 1;
   padding-top: 150px;
  }
+
+ .inicio{
+  background-color: #000;
+  height: 400px; 
+ }
+.texto{
+
+}
+ .inicio-texto{
+  display: flex;
+  max-width: 1200px;
+ }
+
+ .imagem{
+  max-width: 150px;
+ }
