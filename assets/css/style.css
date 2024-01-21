@@ -108,16 +108,27 @@ img{
 
  .inicio{
   background-color: #000;
-  height: 400px; 
+  height: 450px; 
  }
-.texto{
-
+.conteudo{
+  flex: 4;
+  width: 700px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 28px;
+  font-size: 17px;
 }
+
  .inicio-texto{
   display: flex;
   max-width: 1200px;
+ justify-content: space-between;
+ max-width: 1200px;
+ margin: 0 auto;
  }
 
  .imagem{
   max-width: 150px;
- }
+  justify-content: center;
+  align-items: center;
+  padding-top: 140px;
