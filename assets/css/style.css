@@ -55,7 +55,7 @@ img{
 .menu-nav a{
   font-size: 1rem;
   padding: 10px;
-  color: #1CD46E;
+  color: #1CD46E; 
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -71,7 +71,8 @@ img{
   margin: 0 auto;
   display: flex; 
   padding: 30px;
-  background-color: #333D29;
+  /* background-color: #677957; */
+  background-color: #1F1E1F;
   height: 450px;
 }
 
@@ -134,24 +135,27 @@ img{
   padding-top: 140px;
  }
 
- /* .btn{ 
-  padding: 10px 40px 10px 40px;
-  border-radius: 50px;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 45px;
- } */
-
  .btn{
   border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  border-radius: 50px;
+  padding: 11px 35px 11px 35px;
+  font-size: 17px;
+  font-weight: bold;
  }
  h1{
   font-size: 2.625rem;
   line-height: 1.1;
  }
 
- /* .btn:hover{
+ .btn:hover{
   background-color: #1CD46E;
-  color: #fff;
+  color: #1F1E1F;
   cursor: pointer;
- } */
+  font-weight: bold;
+ }
+
+ .detalhe{
+  color: #1CD46E;
+ }
