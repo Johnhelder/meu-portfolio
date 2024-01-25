@@ -38,8 +38,14 @@ img{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; 
+  z-index: 9;
 }
 
+header.sticky{
+  padding: 5px 80px;
+  background-color: #fff;
+  color: #141214;
+}
 .menu-logo a{
   font-size: 2.25em;
   font-weight: bold;
@@ -47,7 +53,7 @@ img{
   color: #1CD46E;
 }
 
-.menu-nav ul{
+/* .menu-nav ul{
   display: flex;
   flex-wrap: wrap;
 }
@@ -63,8 +69,29 @@ img{
  .menu-nav a:hover{
   text-decoration: underline;
   padding-bottom: 3px; 
+ } */
+
+ .menu-nav ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
+ .menu-nav ul li{
+  position: relative;
+  list-style: none;
+ }
+
+ .menu-nav ul li a{
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+ }
  /*Seção sobre*/
 
 .sobre{ 
