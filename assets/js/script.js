@@ -7,3 +7,9 @@ window.onload = function(){
     }
   });
 };
+
+
+window.addEventListener("sroll", function(){
+  var header = document.querySelector("header");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
