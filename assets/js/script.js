@@ -9,7 +9,14 @@ window.onload = function(){
 };
 
 
-window.addEventListener("sroll", function(){
-  var header = document.querySelector("header");
-  header.classList.toggle("sticky", window.scrollY > 0);
+
+
+
+window.addEventListener('scroll', function() {
+  const header = document.getElementById('header');
+  if (window.scrollY > 50) {
+    header.classList.add('fixed');
+  } else {
+    header.classList.remove('fixed');
+  }
 });
