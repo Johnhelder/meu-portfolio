@@ -226,6 +226,8 @@ nav ul li a {
 }
 
 
+/*projetos*/
+
 .projetos{
   background-color: #fff;
 }
@@ -240,21 +242,63 @@ nav ul li a {
   gap: 15px;
 }
 
-.div1{ 
+.projeto-1{ 
   height: 350px;
-  width: 350px;
-  border: 2px solid #02312C;    
+  width: 380px;
+  border: 2px solid #02312C; 
+  border-radius: 10px;   
 }
 
-.div2{ 
+.card-1{
+  width: 380px;
   height: 350px;
-  width: 350px;
-  border: 2px solid #02312C; 
+  background-color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  position: relative;
 }
-.div3{  
+
+.card-1 span{
+  width: 150px;
+  height: 150px;
+  /* background-color: #f00;  */
+  position: absolute;
+  top: 160px;
+  left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-1 span::before{
+  content: 'em breve';
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  background-color: #02312C;
+  transform: rotate(-45deg) translateY(-20px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.projeto-2{ 
   height: 350px;
-  width: 350px;
+  width: 380px;
+  border: 1px solid #02312C; 
+  border-radius: 10px;
+}
+.projeto-3{  
+  height: 350px;
+  width: 380px;
   border: 2px solid #02312C; 
+  border-radius: 10px;
 }
 
 /*Estilo Dark mode*/
