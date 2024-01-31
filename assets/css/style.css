@@ -160,7 +160,7 @@ img{
   padding: 30px;
   /* background-color: #677957; */
   background-color: #1F1E1F; 
-  height: 600px;
+  height: 600px; 
 }
 
 .text-sobre{ 
@@ -229,8 +229,25 @@ nav ul li a {
 /*projetos*/
 
 .projetos{
-  background-color: #fff;
+  /* background-color: #fff; */
+  /* background-color: #141214; */
+  background-color: #060606;
+  height: 600px;   
+  /* margin-top: 50px; */
+  background: url(../images/fundo-secao-sobre.jpg);
+  /* background: rgba(0, 0, 0, 0.2); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.projetos h2{
+  display: flex;
+  justify-content: center;
+  /* padding-top: 35px; */
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
 .projetosgeral{
   max-width: 1200px;
   margin: 0 auto;
@@ -242,12 +259,6 @@ nav ul li a {
   gap: 15px;
 }
 
-.projeto-1{ 
-  height: 350px;
-  width: 380px;
-  border: 2px solid #02312C; 
-  border-radius: 10px;   
-}
 
 .card-1{
   width: 380px;
@@ -263,7 +274,7 @@ nav ul li a {
   height: 150px;
   /* background-color: #f00;  */
   position: absolute;
-  top: 160px;
+  top: -10px;
   left: -10px;
   display: flex;
   justify-content: center;
@@ -274,7 +285,7 @@ nav ul li a {
 .card-1 span::before{
   content: 'em breve';
   position: absolute;
-  width: 250px;
+  width: 390px;
   height: 50px;
   background-color: #02312C;
   transform: rotate(-45deg) translateY(-20px);
@@ -288,18 +299,86 @@ nav ul li a {
   font-size: 1.125rem;
 }
 
-.projeto-2{ 
-  height: 350px;
+
+.card-2{
   width: 380px;
-  border: 1px solid #02312C; 
-  border-radius: 10px;
-}
-.projeto-3{  
   height: 350px;
-  width: 380px;
-  border: 2px solid #02312C; 
-  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  position: relative;
 }
+
+.card-2 span{
+  width: 150px;
+  height: 150px;
+  /* background-color: #f00;  */
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-2 span::before{
+  content: 'em breve';
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  background-color: #02312C;
+  transform: rotate(-45deg) translateY(-20px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+
+.card-3{
+  width: 380px;
+  height: 350px;
+  background-color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  position: relative;
+}
+
+.card-3 span{
+  width: 150px;
+  height: 150px;
+  /* background-color: #f00;  */
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-3 span::before{
+  content: 'em breve';
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  background-color: #02312C;
+  transform: rotate(-45deg) translateY(-20px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
 
 /*Estilo Dark mode*/
 
