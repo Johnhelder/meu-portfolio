@@ -116,6 +116,7 @@ img{
   background: url(../images/fundo-secao-inicio.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  
  }
 .conteudo{
   flex: 4;
@@ -392,6 +393,36 @@ nav ul li a {
   font-size: 1.125rem;
 }
 
+/*habilidades*/
+
+.habilidades{
+   
+  background-color: #001415;
+}
+
+.habilidades h2{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
+  padding-top: 3rem;
+}
+
+.habigeral{ 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0px;
+  display: flex;
+  flex-wrap: wrap; 
+  height: 600px;
+  align-items: center;
+  gap: 15px;
+}
+
+.fa-html5{
+  font-size: 2rem;
+  color: #1CD46E;
+}
 
 /*Estilo Dark mode*/
 
