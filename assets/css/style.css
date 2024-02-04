@@ -408,11 +408,35 @@ nav ul li a {
   padding-top: 3rem;
 }
 
+.iconsPrimarios{
+  display: flex;
+}
+ 
+
+.fa-brands{
+  color: #000 !important;
+}
+.fa-html5, .fa-css3, .fa-css3-alt, .fa-js{
+  background-color: #10E5ED; 
+  font-size: 2rem;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.fa-github, .fa-square-github, .fa-react{
+  background-color: #10E5ED; 
+  font-size: 2rem;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
 .habigeral{ 
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px 0px;
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap; 
   height: 600px;
   align-items: center;
@@ -424,6 +448,9 @@ nav ul li a {
   color: #1CD46E;
 }
 
+.iconsSecundarios{
+  display: flex; 
+}
 /*Estilo Dark mode*/
 
 body{
