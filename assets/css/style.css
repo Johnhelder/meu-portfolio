@@ -128,8 +128,7 @@ img{
 }
 
  .inicio-texto{
-  display: flex;
-  max-width: 1200px;
+  display: flex; 
  justify-content: space-between;
  max-width: 1200px;
  margin: 0 auto;
@@ -192,6 +191,7 @@ img{
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap;
  }
 .title-sobre{
   font-size: 2rem;
@@ -435,8 +435,7 @@ nav ul li a {
 .habigeral{ 
   max-width: 1200px;
   margin: 0 auto;
-  padding: 15px 0px;
-  /* display: flex; */
+  padding: 15px 0px; 
   flex-wrap: wrap; 
   height: 600px;
   align-items: center;
@@ -450,6 +449,24 @@ nav ul li a {
 
 .iconsSecundarios{
   display: flex; 
+}
+ 
+
+/*Footer*/
+
+.footer{
+  background-color: #080808;  
+  height: 70px;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  align-items: center;  
+  padding-left: 340px;
+}
+
+.autor{
+  padding: 10px;
+  color: #1CD46E;
 }
 /*Estilo Dark mode*/
 
@@ -511,3 +528,4 @@ body.dark{
 .fa-sun{
   color: #f39c12;
 }
+
