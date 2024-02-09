@@ -74,6 +74,9 @@ img{
   font-weight: 500px;
   transition: 0.6s;
  }
+nav ul li a:hover{
+background-color: #02312C;
+}
 
  /*seção inicio*/
 
