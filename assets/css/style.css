@@ -198,7 +198,9 @@ background-color: #02312C;
   padding: 30px;
   /* background-color: #677957; */
   /* background-color: #1F1E1F;  */
-  background-color: #121214;
+  background-color: #020105;
+  
+  /* background-color: #121214; */
   height: 600px; 
 }
 
@@ -222,7 +224,7 @@ background-color: #02312C;
   line-height: 1;
   text-transform: uppercase;
   padding-bottom: 15px;
-  color: #02312C;
+  color: #10E5ED;
 }
 
  .texto{
@@ -270,19 +272,20 @@ nav ul li a {
 
 /*projetos*/
 
-.projetos{ 
+.projetos{  
   background-color: #060606;
   height: 650px;    
   background: url(../images/fundo-secao-sobre.jpg); 
   background-image: radial-gradient();
   background-repeat: no-repeat;
   background-size: cover;
-}
+} 
 
 .projetos h2{
-  display: flex;
-  justify-content: center;
-  padding-top: 35px;
+  max-width: 1200px; 
+  display: flex; 
+  padding-top: 38px;
+  padding-left: 22rem;
   font-size: 2rem;
   text-transform: uppercase;
   color: #10E5ED; 
@@ -434,13 +437,22 @@ nav ul li a {
 }
 
 .habilidades h2{
-  display: flex;
-  justify-content: center;
+  display: flex; 
   font-size: 2rem;
   color: #fff;
   padding-top: 4rem;
+  margin-bottom: 2rem;
 }
 
+ 
+
+.habdescricao{
+  color: #ffffff;
+  font-size: 1.25rem;
+  padding-top: 1.25rem;
+  padding-left: 30px;
+  max-width: 350px;
+}
 .iconsPrimarios{
   display: flex;
 }
