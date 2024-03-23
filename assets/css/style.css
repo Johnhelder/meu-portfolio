@@ -155,6 +155,7 @@ background-color: #02312C;
  justify-content: space-between;
  max-width: 1200px;
  margin: 0 auto;
+ flex-wrap: wrap;
  }
 
  .imagem{
@@ -205,11 +206,10 @@ background-color: #02312C;
 }
 
 .hero img{
-  width: 470px;
-  height: 450px;
+  width: 260px;
+  height: 320px;
   border-radius: 50%;
-  border-radius: 1px solid blue;
-
+  border-radius: 5px solid white;
 }
 
 .text-sobre{ 
@@ -240,7 +240,7 @@ background-color: #02312C;
   padding-top: 150px;
  }
  .hero img{
-  max-width: 250px;
+  max-width: 260px;
   flex: 1;
   padding-top: 150px;
  }
@@ -456,9 +456,9 @@ nav ul li a {
 .habdescricao{
   color: #ffffff;
   font-size: 1.25rem;
-  padding-top: 1.25rem;
+  padding-top:0.5625rem;
   padding-left: 30px;
-  max-width: 350px;
+  max-width: 350px;  
 }
 .iconsPrimarios{
   display: flex;
@@ -571,3 +571,4 @@ body.dark{
   color: #f39c12;
 }
 
+/* Responsivo */
