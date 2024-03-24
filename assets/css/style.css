@@ -572,3 +572,21 @@ body.dark{
 }
 
 /* Responsivo */
+
+@media (max-width: 450px){
+  .texto h1{
+    font-size: 25px;
+    padding-left: 24px;
+    line-height: 31px;
+  }
+
+  .conteudo{
+    font-size: 14px;
+    width: 340px;
+    padding-left: 24px;
+  }
+
+  .iconesIni{
+    padding-left: 24px;
+  }
+}
