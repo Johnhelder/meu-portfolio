@@ -589,4 +589,19 @@ body.dark{
   .iconesIni{
     padding-left: 24px;
   }
+  .lite{
+    display: none;
+  }
+   
+}
+
+/*seção inicio*/
+@media (max-width: 450px){
+  .inicio-texto{
+    height: 550px;
+    
+  }
+  .imagem img{
+    margin: 180px;
+  }
 }
