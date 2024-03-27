@@ -605,3 +605,51 @@ body.dark{
     margin: 180px;
   }
 }
+
+/*projetos*/
+
+@media (max-width: 450px){
+   .projetos{
+    background-color: #f00;
+    height: 830px;
+   }
+
+  /* .projetosgeral{
+    height: 900px;
+    
+  } */
+.projetos h2{
+  font-size: 25px;
+  display: flex;
+  margin: 0 auto;
+}
+.card-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  width: 345px;
+  height: 220px;
+}
+
+.card-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  margin: 0 auto;
+  width: 345px;
+  height: 220px;
+}
+
+.card-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  margin: 0 auto;
+  width: 345px;
+  height: 220px;
+}
+}
