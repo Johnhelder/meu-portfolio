@@ -619,8 +619,10 @@ body.dark{
     
   } */
 .projetos h2{
-  font-size: 25px;
-  display: flex;
+  font-size: 25px; 
+  color: #f00;
+  display: block;
+  padding-right: 700px; 
   margin: 0 auto;
 }
 .card-1{
@@ -652,4 +654,24 @@ body.dark{
   width: 345px;
   height: 220px;
 }
+}
+
+/*habilidades*/
+
+@media (max-width: 450px){
+  .habigeral{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-hab{
+    font-size: 25px; 
+  }
+  .habdescricao{
+    width: 450px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
 }
