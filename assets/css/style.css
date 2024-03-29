@@ -675,3 +675,13 @@ body.dark{
     display: none;
   }
 }
+
+/*footer*/
+
+@media (max-width: 450px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
