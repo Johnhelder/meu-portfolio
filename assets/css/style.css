@@ -261,8 +261,7 @@ background-color: #02312C;
 
 #header.fixed {
   height: 90px;
-  background-color: black;
-  /* border-bottom: 1px solid #677957; */
+  background-color: black; 
   border-bottom: 1px solid #02312C;
 }
 
@@ -278,9 +277,13 @@ nav ul li a {
 
 
 /*projetos*/
+.projets{
+  background-color: #09090A;
+}
 
 .projetos{  
-  background-color: #09090A; 
+  max-width: 1200px;
+  margin: 0 auto;
   height: 650px;    
   background: url(../images/fundo-secao-sobre.jpg); 
   background-image: radial-gradient();
@@ -288,19 +291,15 @@ nav ul li a {
   background-size: cover;
 } 
 
-.projetos h2{
-  max-width: 1200px; 
+.projetos h2{ 
   display: flex; 
-  padding-top: 38px;
-  padding-left: 22rem;
+  padding-top: 38px; 
   font-size: 2rem;
   text-transform: uppercase;
   color: #10E5ED; 
 }
   
-.projetosgeral{
-  max-width: 1200px;
-  margin: 0 auto;
+.projetosgeral{  
   padding: 15px 0px;
   display: flex;
   flex-wrap: wrap; 
