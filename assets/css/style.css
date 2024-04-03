@@ -193,17 +193,17 @@ background-color: #02312C;
 
  /*Seção sobre*/
 
-.sobre{ 
-  margin: 0 auto;
-  display: flex; 
-  padding: 30px;
-  /* background-color: #677957; */
-  /* background-color: #1F1E1F;  */
-  background-color: #020105;
-  
-  /* background-color: #121214; */
-  height: 600px; 
+.sobre{  
+  background-color: #020105;     
 }
+
+.sobre-mim{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  height: 600px;
+ }
 
 .hero img{
   width: 260px;
@@ -215,16 +215,11 @@ background-color: #02312C;
 .text-sobre{ 
   padding-left: 580px;  
   line-height: 25px; 
+  /* width: 480px;  */
   font-size: 16px;
    
 }
 
- .sobre-mim{
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex-wrap: wrap;
- }
 .title-sobre{
   font-size: 2rem;
   padding-left: 580px;
