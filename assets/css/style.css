@@ -134,8 +134,8 @@ background-color: #02312C;
  .inicio{
   /* background-color: #141214; */
   background-color: #001618;
-  height: 600px;   
-  margin-top: 50px;
+    
+  /* margin-top: 50px; */
   background: url(../images/fundo-secao-inicio.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -152,6 +152,8 @@ background-color: #02312C;
 
  .inicio-texto{
   display: flex; 
+  height: 600px;
+  align-items: center;
  justify-content: space-between;
  max-width: 1200px;
  margin: 0 auto;
@@ -162,7 +164,9 @@ background-color: #02312C;
   max-width: 260px;
   justify-content: center;
   align-items: center;
-  padding-top: 140px;
+  /*padding-top: 140px; */
+  display: flex;
+  flex-wrap: wrap;
  }
 
  .btn{
@@ -596,11 +600,17 @@ body.dark{
 /*seção inicio*/
 @media (max-width: 450px){
   .inicio-texto{
-    height: 550px;
+    height: 750px;
     
   }
   .imagem img{
     margin: 180px;
+    max-width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 90px;
+    margin-top:  +40px;
   }
 }
 
