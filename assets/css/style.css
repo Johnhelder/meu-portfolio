@@ -622,7 +622,7 @@ body.dark{
     padding-left: 0px;
     padding: 0;
     margin-left: 0px;
-    height: 740px;
+    height: 600px;
   }
 
   .text-sobre{
@@ -631,7 +631,19 @@ body.dark{
     padding-left: 20px;
     color: #fff;
     width: 360px;
+    margin-top: -180px;
   }
+  .hero img{
+    max-width: 200px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    z-index: 5;
+    margin-top: -95px;
+  }
+
 }
 /*projetos*/
 
