@@ -217,7 +217,7 @@ background-color: #02312C;
 }
 
 .text-sobre{ 
-  /* padding-left: 580px;   */
+  padding-left: 580px;  
   line-height: 25px; 
   /* width: 480px;  */
   font-size: 16px;
@@ -617,8 +617,7 @@ body.dark{
 /*seção sobre*/
 
 @media (max-width: 450px){
-  .sobre{
-    background-color: #f00;
+  .sobre{ 
     padding-left: 0px;
     padding: 0;
     margin-left: 0px;
