@@ -634,13 +634,14 @@ body.dark{
   }
   .hero img{
     max-width: 200px;
-    left: 0px;
+    /* left: 0px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 60px;
+    /* padding-left: 60px; */
     z-index: 5;
     margin-top: -95px;
+
   }
 
 }
@@ -658,7 +659,8 @@ body.dark{
   } */
 .projetos h2{
   font-size: 25px; 
-  color: #f00;
+  color: #fff;
+  padding-left: 20px;
   display: block;
   padding-right: 700px; 
   margin: 0 auto;
