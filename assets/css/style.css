@@ -633,12 +633,12 @@ body.dark{
     margin-top: -180px;
   }
   .hero img{
-    max-width: 200px;
+    max-width: 250px;
     /* left: 0px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-left: 60px; */
+    padding-left: 60px;
     z-index: 5;
     margin-top: -95px;
 
