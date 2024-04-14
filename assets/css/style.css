@@ -706,7 +706,12 @@ body.dark{
 
   .title-hab{
     font-size: 25px; 
+    padding-right: 150px !important;
+    
   }
+
+ 
+
   .habdescricao{
     width: 450px;
     padding-left: 20px;
