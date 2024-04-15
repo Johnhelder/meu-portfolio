@@ -136,7 +136,8 @@ background-color: #02312C;
   background-color: #001618;
     
   /* margin-top: 50px; */
-  background: url(../images/fundo-secao-inicio.jpg);
+  /* background: url(../images/fundo-secao-inicio.jpg); */
+  background: url(../images/banner.png);
   background-repeat: no-repeat;
   background-position: center;
   
